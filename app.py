@@ -50,7 +50,7 @@ if not api_key:
 
 client = Groq(api_key=api_key)
 
-MODEL = "qwen/qwen3.8-27"
+MODEL = "qwen/qwen3.8-27b"
 
 if "messages" not in st.session_state:
     st.session_state.messages = [
